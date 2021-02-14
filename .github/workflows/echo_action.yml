@@ -1,0 +1,12 @@
+name: Test Echo
+
+on:  [pull_request]
+
+jobs:
+    run-shell-commnd:
+      runs-on : ubuntu-latest
+      steps:
+        - name: echo action
+          run:  echo "test"
+        - name: echo version
+          run: | node -v
