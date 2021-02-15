@@ -9,4 +9,4 @@ jobs:
         - name: echo action
           run:  echo "test"
         - name: echo version
-          run: | node -v
+          run: node -v
